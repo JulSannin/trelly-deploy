@@ -1,0 +1,22 @@
+.item {
+  width: 320px;
+  list-style-type: none;
+  border: 2px solid black;
+  text-align: left;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Модификаторы: меняют только то, что отличает состояние от базового вида */
+.selected {
+  border-color: blue;
+}
+
+.important {
+  background-color: orange;
+}
+
+.done {
+  text-decoration-line: line-through;
+}
